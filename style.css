@@ -319,7 +319,15 @@ footer {
     .quote-wrapper p {
         width: 100%;
         font-size: 10px;
-        l
+        
+    }
+
+    .instructions-points-wrapper {
+        width: 90%;
+    }
+
+    .instructions-points-wrapper a {
+        font-size: 0.8rem;
     }
 
 

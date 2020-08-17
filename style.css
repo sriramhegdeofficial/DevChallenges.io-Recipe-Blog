@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0px 10%;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: bold;     
+    font-size: 2.9rem; 
+}
+
+.quote-wrapper {
+    
+ 
+    margin: 22px 0px 65px 0px;
+    position: relative;
+    
+}
+
+.quote-wrapper img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: inline-block;
+}
+
+.quote-wrapper p {
+    width: 55%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+    margin-left: 30px;
+}
+
+.recipe-image {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+main {
+    width: 100%;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.cooking-side-note {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    min-width: 100px;
+    height: auto;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.side-note-wrapper {
+    
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.side-note-content-wrapper {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-note-p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.side-note-p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 17px;
+}
+
+.inactive {
+    color: #4F4F4F;
+}
+.ingredients-wrapper {
+    width: 50%;
+    min-width: 300px;
+    
+
+    
+    
+}
+
+.material-icons.md-40 { 
+    font-size: 40px;
+    
+}
+
+.active {
+    color: #F2994A; 
+}
+
+.ingredients-wrapper .ingredients-heading {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 32px;
+    margin-bottom: 40px;
+    color: #333333;
+}
+
+.recipe-name {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 30px;
+}
+
+
+.ingredients-checkbox-form {
+    margin-top: 30px;
+}
+
+.ingredients-checkbox-form .checkbox-wrapper {
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.make-bold {
+    font-weight: bold;
+}
+
+
+
+
+.checkbox-wrapper label {
+    margin-left: 20px;
+}
+
+.checkbox {
+     width: 18px; 
+    height: 18px; 
+}
+
+.make-italic {
+    font-style: italic;
+}
+
+
+.instructions-points-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.instructions-points-number {
+   width: 30px; 
+   height: 30px;
+   min-width: 30px;
+   background: #F2994A;
+   font-family: 'Playfair Display', serif;
+   
+   position: relative;
+   padding: 0;
+   /* border-radius: 6px; */
+   margin-right: 15px;
+   color: #FFFFFF;
+   font-style: normal;
+   font-weight: bold;
+   border-radius: 6px;
+}
+
+
+.instructions-points-number span {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+.instructions-points {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 150%;
+}
+
+.source-url {
+    margin-top: 25px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #A9A9A9;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    
+}
+
+
+@media only screen and (max-width: 750px) {
+   
+
+    .title {
+             
+        font-size: 2.2rem; 
+    }
+
+    .quote-wrapper p {
+        width: 100%;
+        
+    }
+
+    .quote-wrapper {
+    
+ 
+        margin: 22px 0px 35px 0px;
+        
+        
+    }
+
+    .cooking-side-note {
+        position: static;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+
+    .side-note-wrapper {
+        flex: 1;
+    }
+
+    .material-icons.md-40 { 
+        font-size: 14px;
+        
+    }
+
+    .side-note-active-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    
+
+    .side-note-active-wrapper .side-note-wrapper {
+    
+        margin-bottom: 0px;
+    }
+
+    .side-note-p1 {
+        
+        font-size: 0.45rem;
+        
+    }
+    .side-note-p2 {
+      
+        font-size: 0.5rem;
+        
+    }
+
+    .ingredients-wrapper {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+
+  }
